@@ -1,0 +1,16 @@
+{
+  "atualizadoEm": "março de 2026",
+  "castracoes": {
+    "gataFemea": 1,
+    "gatoMacho": 1,
+    "cadela": 1,
+    "caoMacho": 0
+  },
+  "microchipagens": 6,
+  "multiplicadoresConservadores": {
+    "gataFemea": 60,
+    "gatoMacho": 30,
+    "cadela": 60,
+    "caoMacho": 30
+  }
+}
