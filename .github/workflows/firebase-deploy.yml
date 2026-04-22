@@ -13,6 +13,8 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
+          # Usamos uma string vazia aqui apenas para a Action não reclamar
+          firebaseServiceAccount: ""
           channelId: live
           projectId: impacto-animal-30043559-620c9
         env:
