@@ -1,0 +1,48 @@
+[debug] [2026-04-22T17:53:34.058Z] ----------------------------------------------------------------------
+[debug] [2026-04-22T17:53:34.061Z] Command:       /usr/local/nvm/versions/node/v24.14.1/bin/node /usr/local/node_packages/node_modules/.bin/firebase init hosting:github
+[debug] [2026-04-22T17:53:34.061Z] CLI Version:   15.10.1
+[debug] [2026-04-22T17:53:34.061Z] Platform:      linux
+[debug] [2026-04-22T17:53:34.061Z] Node Version:  v24.14.1
+[debug] [2026-04-22T17:53:34.062Z] Time:          Wed Apr 22 2026 17:53:34 GMT+0000 (Coordinated Universal Time)
+[debug] [2026-04-22T17:53:34.062Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/anna_laura/impacto-animal
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-22T17:53:35.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-22T17:53:35.290Z] > authorizing via signed-in user (anna.laura@alpalages.com.br)
+[debug] [2026-04-22T17:53:35.292Z] Checked if tokens are valid: true, expires at: 1776882704807
+[debug] [2026-04-22T17:53:35.292Z] Checked if tokens are valid: true, expires at: 1776882704807
+[debug] [2026-04-22T17:53:35.294Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/impacto-animal-30043559-620c9 [none]
+[debug] [2026-04-22T17:53:35.294Z] >>> [apiv2][(partial)header] GET https://firebase.googleapis.com/v1beta1/projects/impacto-animal-30043559-620c9  x-goog-user-project=impacto-animal-30043559-620c9
+[debug] [2026-04-22T17:53:35.546Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/impacto-animal-30043559-620c9 200
+[debug] [2026-04-22T17:53:35.547Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/impacto-animal-30043559-620c9 {"projectId":"impacto-animal-30043559-620c9","projectNumber":"891676216235","displayName":"Firebase app","name":"projects/impacto-animal-30043559-620c9","resources":{"hostingSite":"impacto-animal-30043559-620c9"},"state":"ACTIVE","etag":"1_ff5fec9f-e3f4-4bcc-b344-73dd1cf8f3a1"}
+[info] i  Using project impacto-animal-30043559-620c9 (Firebase app) . 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at /home/anna_laura/impacto-animal 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=938273249&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
