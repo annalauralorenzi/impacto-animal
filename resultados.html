@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resultados do projeto Impacto Animal - ALPA | Acompanhe as castrações, microchipagens e a projeção de impacto para 2026 em Lages/SC.">
+    <meta name="keywords" content="impacto animal, ALPA, Lages, resultados, castração, microchipagem, transparência, responsabilidade social">
+    <meta property="og:title" content="Resultados do Impacto Animal - ALPA">
+    <meta property="og:description" content="Veja o impacto real já entregue e a projeção de castrações e microchipagens para 2026 em Lages/SC.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <title>Resultados | Impacto Animal - ALPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="resources/Prancheta 8@8x.png">
+    <link rel="apple-touch-icon" href="resources/Prancheta 8@8x.png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo" aria-label="Impacto Animal">
+                <img src="resources/Prancheta 2@8x.png" alt="Impacto Animal" class="logo-img logo-img-light">
+                <img src="resources/Prancheta 1.svg" alt="Impacto Animal" class="logo-img logo-img-dark">
+            </a>
+            <nav class="nav" id="nav">
+                <button class="nav-close" id="navClose" aria-label="Fechar menu">&times;</button>
+                <ul class="nav-list">
+                    <li><a href="index.html#inicio" class="nav-link">Início</a></li>
+                    <li><a href="index.html#projeto" class="nav-link">O Projeto</a></li>
+                    <li><a href="index.html#selo" class="nav-link">Selos</a></li>
+                    <li><a href="index.html#planos" class="nav-link">Planos</a></li>
+                    <li><a href="index.html#parceiros" class="nav-link">Parceiros</a></li>
+                    <li><a href="resultados.html" class="nav-link active" aria-current="page">Resultados</a></li>
+                    <li><a href="index.html#contato" class="nav-link nav-cta">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero compacto -->
+    <section class="hero hero-compact" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Transparência · 2026</span>
+                <h1 class="hero-title">
+                    Cada número representa
+                    <span class="hero-highlight">uma vida transformada</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Acompanhe em tempo real o impacto do projeto: castrações realizadas,
+                    microchipagens entregues e a projeção de avanço mês a mês em Lages/SC.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Números realizados -->
+    <section class="section results-highlights" id="numeros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Até o momento</span>
+                <h2 class="section-title">Impacto já entregue</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Resultados acumulados do projeto Impacto Animal desde o seu início,
+                    atualizados até <strong id="periodoResultados">março de 2026</strong>.
+                </p>
+            </div>
+
+            <div class="highlight-grid">
+                <article class="highlight-card highlight-featured">
+                    <span class="highlight-label">Impacto ampliado</span>
+                    <div class="highlight-number" id="statEvitados">~150</div>
+                    <h3>Animais potencialmente evitados</h3>
+                    <p>
+                        Esse é o <strong>impacto real</strong> da castração: não apenas os animais
+                        atendidos, mas todos os que deixarão de nascer sem lar. Cada procedimento
+                        interrompe um ciclo reprodutivo que geraria dezenas de novas vidas em
+                        situação de vulnerabilidade.
+                    </p>
+                    <p class="highlight-note" id="notaEvitados">
+                        Estimativa conservadora baseada nas castrações realizadas até o momento, considerando a descendência
+                        direta ao longo de ~5 anos de vida reprodutiva.
+                    </p>
+                </article>
+
+                <article class="highlight-card">
+                    <span class="highlight-label">Castrações realizadas</span>
+                    <div class="highlight-number" id="statCastracoes">3</div>
+                    <h3>Procedimentos concluídos</h3>
+                    <p>
+                        Castrações efetivadas em parceria com clínicas veterinárias,
+                        contribuindo diretamente para o controle populacional ético.
+                    </p>
+                </article>
+
+                <article class="highlight-card">
+                    <span class="highlight-label">Microchipagens</span>
+                    <div class="highlight-number" id="statMicrochipagens">6</div>
+                    <h3>Animais identificados</h3>
+                    <p>
+                        Microchips implantados garantindo rastreabilidade, retorno em
+                        caso de perda e responsabilização dos tutores.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projeção 2026 -->
+    <section class="section projection" id="projecao">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Mês a mês</span>
+                <h2 class="section-title">Projeção de castrações em 2026</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Metas de castrações já realizadas e previstas para os próximos meses,
+                    com base nos recursos aprovados e nas parcerias em curso.
+                </p>
+            </div>
+
+            <div class="projection-legend">
+                <span class="projection-legend-item">
+                    <span class="projection-legend-dot" style="background: var(--color-primary);"></span>
+                    Realizado
+                </span>
+                <span class="projection-legend-item">
+                    <span class="projection-legend-dot" style="background: var(--color-gray-200); border: 1px solid var(--color-gray-400);"></span>
+                    Previsto
+                </span>
+            </div>
+
+            <div class="timeline-grid">
+                <article class="month-card month-card-done">
+                    <span class="month-label">Mar 2026</span>
+                    <strong class="month-number">3</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Realizado</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Abr 2026</span>
+                    <strong class="month-number">7</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Mai 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Jun 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Jul 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Ago 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Set 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Out 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Nov 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+                <article class="month-card">
+                    <span class="month-label">Dez 2026</span>
+                    <strong class="month-number">6</strong>
+                    <span class="month-unit">castrações</span>
+                    <span class="month-status">Previsto</span>
+                </article>
+            </div>
+
+            <div class="projection-summary">
+                <div>
+                    <h3>Projeção consolidada para 2026</h3>
+                    <p>
+                        Somando o que já foi realizado e o planejado para os próximos meses,
+                        o projeto deve encerrar o ano com <strong>58 castrações</strong>,
+                        além das microchipagens e feiras de adoção associadas.
+                    </p>
+                </div>
+                <div class="projection-summary-number" aria-label="Total de 58 castrações projetadas">58</div>
+            </div>
+
+            <div class="results-cta">
+                <p>Quer ampliar esses números ainda mais?</p>
+                <a href="index.html#planos" class="btn btn-primary">Quero apoiar o projeto</a>
+                <a href="index.html#contato" class="btn btn-outline">Falar com a ALPA</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo logo-light" aria-label="Impacto Animal">
+                    <img src="resources/Prancheta 2@8x.png" alt="Impacto Animal" class="logo-img logo-img-footer">
+                </a>
+                <p>
+                    Um projeto da Associação Lageana de Proteção aos Animais – ALPA.
+                    Empresas que cuidam de vidas, inspiram o futuro.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html#inicio">Início</a></li>
+                    <li><a href="index.html#projeto">O Projeto</a></li>
+                    <li><a href="index.html#selo">Selos</a></li>
+                    <li><a href="index.html#planos">Planos</a></li>
+                    <li><a href="index.html#parceiros">Parceiros</a></li>
+                    <li><a href="resultados.html">Resultados</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul>
+                    <li>impactoanimal@alpalages.com.br</li>
+                    <li>Lages – Santa Catarina</li>
+                    <li><a href="https://wa.me/5549991885561?text=ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20o%20Impacto%20Animal" target="_blank" rel="noopener">(49) 99188-5561</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Siga a ALPA</h4>
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.instagram.com/alpalages" target="_blank" rel="noopener" aria-label="Instagram @alpalages">
+                            Instagram <span class="social-handle">@alpalages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.alpalages.com.br" target="_blank" rel="noopener" aria-label="Site da ALPA">
+                            Site <span class="social-handle">alpalages.com.br</span>
+                        </a>
+                    </li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="year"></span> Impacto Animal – ALPA · Todos os direitos reservados.</p>
+                <p>Feito com <span aria-hidden="true">❤</span> para quem não tem voz.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
