@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": ".",
+    "site": "impacto-animal-30043559-620c9",
     "ignore": [
       "firebase.json",
       "**/.*",
