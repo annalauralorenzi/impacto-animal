@@ -1426,7 +1426,7 @@ ul { list-style: none; }
     color: var(--color-gray-400);
 }
 
-/* Projeção mês a mês */
+/* Projeção por trimestre */
 .projection {
     background: var(--color-cream);
 }
@@ -1457,6 +1457,15 @@ ul { list-style: none; }
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
     gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.timeline-grid-quarters {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 3rem;
 }
 
@@ -1514,6 +1523,19 @@ ul { list-style: none; }
 }
 .month-card-done .month-unit {
     color: rgba(255, 255, 255, 0.8);
+}
+
+.month-period {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--color-gray-600);
+    margin-top: -0.5rem;
+    margin-bottom: 0.85rem;
+}
+.month-card-done .month-period {
+    color: rgba(255, 255, 255, 0.85);
 }
 
 .month-status {
@@ -1594,6 +1616,10 @@ ul { list-style: none; }
     }
     .timeline-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .timeline-grid-quarters {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
     }
     .results-cta .btn {
         display: block;
