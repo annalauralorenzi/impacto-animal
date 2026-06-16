@@ -1,10 +1,10 @@
 {
   "atualizadoEm": "maio de 2026",
   "castracoes": {
-    "gataFemea": 1,
+    "gataFemea": 2,
     "gatoMacho": 3,
-    "cadela": 1,
-    "caoMacho": 1
+    "cadela": 2,
+    "caoMacho": 3
   },
   "microchipagens": 11,
   "multiplicadoresConservadores": {
