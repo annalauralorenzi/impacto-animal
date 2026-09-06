@@ -3,10 +3,10 @@
   "castracoes": {
     "gataFemea": 3,
     "gatoMacho": 3,
-    "cadela": 4,
-    "caoMacho": 3
+    "cadela": 7,
+    "caoMacho": 6
   },
-  "microchipagens": 18,
+  "microchipagens": 25,
   "multiplicadoresConservadores": {
     "gataFemea": 60,
     "gatoMacho": 30,
